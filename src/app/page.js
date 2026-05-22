@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { ShoppingBag, ArrowRight, Plus, Feather, Orbit, Sliders } from "lucide-react";
+import { ArrowRight, Plus, Feather, Orbit, Sliders } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 
 export default function Home() {

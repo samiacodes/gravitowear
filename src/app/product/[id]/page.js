@@ -227,23 +227,23 @@ export default function ProductDetailPage({ params }) {
             {/* Quantity Selector & Add to Cart button */}
             <div className="flex flex-col sm:flex-row gap-4 mt-4 items-stretch sm:items-center">
               {/* Quantity Controls */}
-              <div className="flex items-center justify-between bg-black/40 border border-white/10 rounded-full py-3.5 px-5 gap-6 sm:w-fit">
-                <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Qty</span>
-                <div className="flex items-center gap-4">
+              <div className="flex items-center justify-between bg-black/40 border border-white/10 rounded-full py-2 px-4 gap-4 sm:w-fit">
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Qty</span>
+                <div className="flex items-center gap-3">
                   <button
                     onClick={() => setQuantity((prev) => Math.max(1, prev - 1))}
                     className="text-slate-400 hover:text-white transition-colors p-1"
                   >
-                    <Minus className="w-4 h-4" />
+                    <Minus className="w-3.5 h-3.5" />
                   </button>
-                  <span className="text-sm font-bold text-white min-w-[20px] text-center">
+                  <span className="text-xs font-bold text-white min-w-[16px] text-center">
                     {quantity}
                   </span>
                   <button
                     onClick={() => setQuantity((prev) => prev + 1)}
                     className="text-slate-400 hover:text-white transition-colors p-1"
                   >
-                    <Plus className="w-4 h-4" />
+                    <Plus className="w-3.5 h-3.5" />
                   </button>
                 </div>
               </div>
@@ -251,9 +251,9 @@ export default function ProductDetailPage({ params }) {
               {/* Add to Cart CTA */}
               <button
                 onClick={handleAddToCart}
-                className="flex-grow flex items-center justify-center gap-2.5 py-4 text-sm font-bold tracking-wider text-white bg-brand-purple rounded-full hover:bg-brand-purple/90 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(139,92,246,0.4)]"
+                className="flex-grow flex items-center justify-center gap-2 py-2.5 text-xs font-bold tracking-wider text-white bg-brand-purple rounded-full hover:bg-brand-purple/90 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_6px_15px_rgba(139,92,246,0.25)]"
               >
-                TETHER TO CAPSULE <ShoppingBag className="w-4 h-4" />
+                TETHER TO CAPSULE <ShoppingBag className="w-3.5 h-3.5" />
               </button>
             </div>
 

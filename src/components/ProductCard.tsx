@@ -66,7 +66,7 @@ const ProductCard: React.FC<ProductProps> = ({
         </div>
 
         {/* Action Button */}
-        <button className="w-full flex items-center justify-center gap-2 py-3 rounded-full border border-white/5 bg-white/5 hover:bg-brand-purple text-xs font-bold tracking-wider text-slate-200 hover:text-white transition-all duration-500 hover:shadow-[0_0_15px_rgba(139,92,246,0.45)] hover:border-brand-purple">
+        <button className="w-full flex items-center justify-center gap-2 py-2 rounded-full border border-white/5 bg-white/5 hover:bg-brand-purple text-xs font-bold tracking-wider text-slate-200 hover:text-white transition-all duration-500 hover:shadow-[0_0_8px_rgba(139,92,246,0.25)] hover:border-brand-purple">
           FLOAT TO BAG <Plus className="w-3.5 h-3.5" />
         </button>
       </div>

@@ -36,13 +36,13 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <a
               href="#collections"
-              className="flex items-center justify-center gap-2 px-8 py-4 text-sm font-bold tracking-wider text-white bg-brand-purple rounded-full hover:bg-brand-purple/90 transition-all duration-300 hover:shadow-[0_0_20px_rgba(139,92,246,0.5)] transform hover:-translate-y-1"
+              className="flex items-center justify-center gap-2 px-5 py-2.5 text-xs font-bold tracking-wider text-white bg-brand-purple rounded-full hover:bg-brand-purple/90 transition-all duration-300 hover:shadow-[0_0_12px_rgba(139,92,246,0.3)] transform hover:-translate-y-1"
             >
-              EXPLORE COLLECTION <ArrowRight className="w-4 h-4" />
+              EXPLORE COLLECTION <ArrowRight className="w-3.5 h-3.5" />
             </a>
             <a
               href="#lab"
-              className="flex items-center justify-center gap-2 px-8 py-4 text-sm font-bold tracking-wider text-slate-300 border border-white/10 rounded-full hover:text-white hover:border-slate-500 transition-all duration-300 glass-panel-interactive"
+              className="flex items-center justify-center gap-2 px-5 py-2.5 text-xs font-bold tracking-wider text-slate-300 border border-white/10 rounded-full hover:text-white hover:border-slate-500 transition-all duration-300 glass-panel-interactive"
             >
               GRAVITY LAB
             </a>

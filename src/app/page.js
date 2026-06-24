@@ -80,13 +80,13 @@ export default function Home() {
               {/* Shop Now Button (Lifts on hover and casts a soft shadow) */}
               <a
                 href="#collections"
-                className="flex items-center justify-center gap-2 px-8 py-4 text-sm font-bold tracking-wider text-white bg-brand-purple rounded-full hover:bg-brand-purple/90 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_15px_30px_rgba(139,92,246,0.45)]"
+                className="flex items-center justify-center gap-2 px-5 py-2.5 text-xs font-bold tracking-wider text-white bg-brand-purple rounded-full hover:bg-brand-purple/90 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_8px_15px_rgba(139,92,246,0.25)]"
               >
-                SHOP NOW <ArrowRight className="w-4 h-4" />
+                SHOP NOW <ArrowRight className="w-3.5 h-3.5" />
               </a>
               <a
                 href="#lab"
-                className="flex items-center justify-center gap-2 px-8 py-4 text-sm font-bold tracking-wider text-slate-300 border border-white/10 rounded-full hover:text-white hover:border-slate-500 transition-all duration-300 hover:bg-white/5"
+                className="flex items-center justify-center gap-2 px-5 py-2.5 text-xs font-bold tracking-wider text-slate-300 border border-white/10 rounded-full hover:text-white hover:border-slate-500 transition-all duration-300 hover:bg-white/5"
               >
                 GRAVITY CONTROLLER
               </a>
@@ -186,7 +186,7 @@ export default function Home() {
                       e.preventDefault();
                       addToCart(product);
                     }}
-                    className="w-full flex items-center justify-center gap-2 py-3 rounded-full border border-white/5 bg-white/5 hover:bg-brand-purple text-xs font-bold tracking-wider text-slate-200 hover:text-white transition-all duration-300 transform active:scale-95"
+                    className="w-full flex items-center justify-center gap-2 py-2 rounded-full border border-white/5 bg-white/5 hover:bg-brand-purple text-xs font-bold tracking-wider text-slate-200 hover:text-white transition-all duration-300 transform active:scale-95 hover:shadow-[0_0_8px_rgba(139,92,246,0.25)]"
                   >
                     FLOAT TO BAG <Plus className="w-3.5 h-3.5" />
                   </button>

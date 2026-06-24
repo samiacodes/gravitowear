@@ -154,7 +154,7 @@ export default function LoginPage() {
         <form onSubmit={handleAuth} className="space-y-5">
           {activeTab === "signup" && (
             <div className="relative">
-              <User className="absolute left-4 top-3.5 w-4.5 h-4.5 text-slate-400" />
+              <User className="absolute left-4 top-3.5 w-4 h-4 text-slate-400" />
               <input
                 type="text"
                 placeholder="Pilot Call Sign / Full Name"
@@ -167,7 +167,7 @@ export default function LoginPage() {
           )}
 
           <div className="relative">
-            <Mail className="absolute left-4 top-3.5 w-4.5 h-4.5 text-slate-400" />
+            <Mail className="absolute left-4 top-3.5 w-4 h-4 text-slate-400" />
             <input
               type="email"
               placeholder="Secure Email Address"
@@ -179,7 +179,7 @@ export default function LoginPage() {
           </div>
 
           <div className="relative">
-            <Lock className="absolute left-4 top-3.5 w-4.5 h-4.5 text-slate-400" />
+            <Lock className="absolute left-4 top-3.5 w-4 h-4 text-slate-400" />
             <input
               type="password"
               placeholder="Security Keyphrase"
@@ -194,17 +194,17 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full flex items-center justify-center gap-2 py-4 rounded-full text-sm font-bold tracking-wider text-white bg-gradient-to-r from-brand-cyan to-brand-purple hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300 active:translate-y-0 disabled:opacity-50 disabled:pointer-events-none shadow-[0_5px_15px_rgba(6,182,212,0.2)]"
+            className="w-full flex items-center justify-center gap-2 py-2.5 rounded-full text-xs font-bold tracking-wider text-white bg-gradient-to-r from-brand-cyan to-brand-purple hover:brightness-110 hover:-translate-y-0.5 transition-all duration-300 active:translate-y-0 disabled:opacity-50 disabled:pointer-events-none shadow-[0_3px_8px_rgba(6,182,212,0.15)]"
           >
             {loading ? (
-              <span className="w-5 h-5 rounded-full border-2 border-white/30 border-t-white animate-spin" />
+              <span className="w-4 h-4 rounded-full border-2 border-white/30 border-t-white animate-spin" />
             ) : activeTab === "login" ? (
               <>
-                INITIALIZE CAPSULE ACCESS <ArrowRight className="w-4 h-4" />
+                INITIALIZE CAPSULE ACCESS <ArrowRight className="w-3.5 h-3.5" />
               </>
             ) : (
               <>
-                REGISTER PILOT CODES <ArrowRight className="w-4 h-4" />
+                REGISTER PILOT CODES <ArrowRight className="w-3.5 h-3.5" />
               </>
             )}
           </button>
@@ -221,10 +221,10 @@ export default function LoginPage() {
         {/* Social Logins Placeholder */}
         <button
           onClick={handleGooglePlaceholder}
-          className="w-full flex items-center justify-center gap-3 py-3 rounded-full border border-white/10 hover:border-white/20 bg-white/5 hover:bg-white/10 text-xs font-bold tracking-wider text-slate-300 hover:text-white transition-all duration-300 active:scale-95"
+          className="w-full flex items-center justify-center gap-3 py-2 rounded-full border border-white/10 hover:border-white/20 bg-white/5 hover:bg-white/10 text-[11px] font-bold tracking-wider text-slate-300 hover:text-white transition-all duration-300 active:scale-95"
         >
           {/* Custom Google SVG Icon */}
-          <svg className="w-4.5 h-4.5" viewBox="0 0 24 24" fill="currentColor">
+          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
             <path
               d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
               fill="#4285F4"

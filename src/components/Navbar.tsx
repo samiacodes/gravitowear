@@ -93,8 +93,8 @@ const Navbar = () => {
               )}
             </button>
             
-            <button className="hidden md:flex items-center gap-2 px-5 py-2 text-xs font-semibold tracking-wider text-white border border-white/10 rounded-full glass-panel-interactive hover:border-brand-purple hover:shadow-[0_0_15px_rgba(139,92,246,0.3)]">
-              LAUNCH LAB <ArrowUpRight className="w-3.5 h-3.5" />
+            <button className="hidden md:flex items-center gap-2 px-4 py-1.5 text-[11px] font-semibold tracking-wider text-white border border-white/10 rounded-full glass-panel-interactive hover:border-brand-purple hover:shadow-[0_0_10px_rgba(139,92,246,0.2)]">
+              LAUNCH LAB <ArrowUpRight className="w-3 h-3" />
             </button>
 
             {/* Mobile Menu Button */}
@@ -120,8 +120,8 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <button className="w-full flex items-center justify-center gap-2 px-5 py-3 text-sm font-semibold text-white border border-white/10 rounded-full glass-panel-interactive">
-              LAUNCH LAB <ArrowUpRight className="w-4 h-4" />
+            <button className="w-full flex items-center justify-center gap-2 px-4 py-2 text-xs font-semibold text-white border border-white/10 rounded-full glass-panel-interactive">
+              LAUNCH LAB <ArrowUpRight className="w-3.5 h-3.5" />
             </button>
           </div>
         )}
@@ -168,7 +168,7 @@ const Navbar = () => {
                   <Link
                     href="/shop"
                     onClick={closeCart}
-                    className="mt-6 px-6 py-2.5 text-xs font-semibold tracking-wider text-white bg-brand-cyan hover:bg-brand-cyan/80 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(6,180,212,0.3)] hover:shadow-[0_0_25px_rgba(6,180,212,0.5)]"
+                    className="mt-6 px-4.5 py-1.5 text-[11px] font-semibold tracking-wider text-white bg-brand-cyan hover:bg-brand-cyan/80 rounded-full transition-all duration-300 shadow-[0_0_8px_rgba(6,180,212,0.2)] hover:shadow-[0_0_12px_rgba(6,180,212,0.35)]"
                   >
                     EXPLORE SHOP
                   </Link>
@@ -260,7 +260,7 @@ const Navbar = () => {
                     ${cartTotal.toFixed(2)}
                   </span>
                 </div>
-                <button className="w-full py-3.5 text-sm font-bold uppercase tracking-wider text-white bg-gradient-to-r from-brand-cyan to-brand-purple rounded-full transition-all duration-300 hover:brightness-110 shadow-[0_0_20px_rgba(6,180,212,0.3)] hover:shadow-[0_0_35px_rgba(139,92,246,0.4)] transform hover:-translate-y-0.5 active:translate-y-0">
+                <button className="w-full py-2 text-xs font-bold uppercase tracking-wider text-white bg-gradient-to-r from-brand-cyan to-brand-purple rounded-full transition-all duration-300 hover:brightness-110 shadow-[0_0_10px_rgba(6,180,212,0.2)] hover:shadow-[0_0_18px_rgba(139,92,246,0.3)] transform hover:-translate-y-0.5 active:translate-y-0">
                   Secure Checkout
                 </button>
                 <p className="text-[10px] text-center text-slate-500">
